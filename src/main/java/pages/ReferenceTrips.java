@@ -22,6 +22,7 @@ public class ReferenceTrips extends PageBase
 
     @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div/ul/li[7]/a/span")
     WebElement ReferencesDropDownButton;
+    WebElement Refe;
 
     @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div/ul/li[7]/div/ul/li[1]/a/span")
     WebElement ReferencesButton;
